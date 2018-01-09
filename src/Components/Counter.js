@@ -20,10 +20,10 @@ class Counter extends Component {
 
     render() {
         const { value } = this.props;
-console.log(value);
+
         return (
             <div>
-                <h2>Clicked: { value } times</h2>
+                <h2>Número: { value }</h2>
                 <button onClick={ this.handleDecrement }>Decrement</button>
                 <button onClick={ this.handleIncrement }>Increment</button>
             </div>
